@@ -117,12 +117,5 @@ print(d)
 print("\n11) Práce se slovníkem (51)")
 
 info = {('Name', 'Surname'):('John', 'Doe')}
-for value in info.values():
-    print("{}".format(value))
-
-
-#extracted_info = str(list(info.values()))
-#print(extracted_info)
-
-#full_name = (extracted_info[3])
-#print(full_name)
+name_sur = str(list(info.values()))
+print(name_sur[3:7] + "_" + name_sur[11:14])
