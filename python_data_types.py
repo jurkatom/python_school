@@ -2,5 +2,4 @@
 heritage = 1256983;
 childrenNum = 28;
 remaining = heritage % childrenNum;
-print(remaining)
-print("King will have " + remaining + " coins remaining.");
+print("King will have " + str(remaining) + " coins remaining.");
