@@ -41,9 +41,9 @@ half_of_word_lenght=int(word_lenght/2)
 print(word[:half_of_word_lenght].upper() + word[half_of_word_lenght:].lower())
 
 for x in range (0,2):
-        print(word[0] * word_lenght)
-        word="git"
-        word_lenght=int(len(word))
+    print(word[0] * word_lenght)
+    word="git"
+    word_lenght=int(len(word))
 
 #5) Vyřešení chyby (27)
 print("\n5) Vyřešení chyby (27)")
@@ -112,6 +112,9 @@ d = {'payton':'An interpreted, object-oriented programming language'}
 d["python"] = d["payton"]
 del d["payton"]
 print(d)
+
+phonebook = {('John','Doe'):'123456789'}
+print(phonebook)
 
 #11) Práce se slovníkem (51)
 print("\n11) Práce se slovníkem (51)")
