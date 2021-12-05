@@ -1,0 +1,5 @@
+1	ebook
+2	comfy pillow
+3	cyanide
+4	flamethrower
+5	bug repellent
